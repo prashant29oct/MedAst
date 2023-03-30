@@ -35,7 +35,7 @@ public class AddAppointment {
 		
 		driver.findElement(By.xpath("//span[text()='Select Patient']")).click();
 		
-		driver.findElement(By.xpath("//input[contains(@class,'select2-input')]")).sendKeys("Prashant");
+		driver.findElement(By.xpath("//input[contains(@class,'select2-input')]")).sendKeys("Prash");
 		
 
 	}
